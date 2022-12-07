@@ -1,0 +1,33 @@
+.site-logo {
+    background: url("https://clairvoyantsoft.com/assets/img/cv/clairvoyant-logo-orange.svg") center/contain no-repeat;
+    width: 170px;
+      margin-left: 16px;
+      height: 50px;
+      float: left;
+  }
+  .navbar {
+    box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 15%);
+    background-color: #FFFFFF;
+    position: fixed;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+  }
+  
+  .menu {
+    list-style: none;
+    text-align: center;
+    font-weight: 900;
+    vertical-align: center;
+  }
+  
+  .container {
+    width: 100%;
+  }
+
+  /* simple hack */
+  #main_content_container {
+    display: block !important;
+  }
